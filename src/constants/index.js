@@ -156,7 +156,7 @@ const experiences = [
     ],
   },
   {
-    title: "FinFiesta2.0",
+    title: "FinFiesta 2.0",
     company_name: "Case O Maze & Money Haul",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -168,7 +168,7 @@ const experiences = [
     ],
   },
   {
-    title: "Mudra2.0",
+    title: "Mudra 2.0",
     company_name: "Equity Edge & Indianomics IQ",
     icon: shopify,
     iconBg: "#383E56",
