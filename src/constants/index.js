@@ -187,18 +187,18 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to get the project back on track, but FCC proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Their expertise, responsive approach, and empathetic problem-solving were impressive. Their data-driven recommendations and seamless collaboration exceeded our expectations. I highly recommend the club for transformative and innovative solutions.",
+    name: "Archit Watts",
+    designation: "Associate",
+    company: "CMGGA",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met an organization which truly cares about their clients' success like FCC does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Their expertise in market entry strategies, in-depth market research, and cutting-edge customer acquisition methods have been instrumental in our growth and success. I highly recommend the team and their solutions.",
+    name: "Aishwarya Yadav",
+    designation: "Co-Founder",
+    company: "The Nail Company",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
