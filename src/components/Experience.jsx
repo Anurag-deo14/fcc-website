@@ -4,6 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -13,6 +14,12 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+  const navigate = useNavigate();
+
+  const handleRegisterClick = () => {
+    navigate(`/register/${experience.title}`);
+  };
+
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -52,6 +59,12 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      <button
+        onClick={handleRegisterClick}
+        className='mt-4 bg-blue-500 text-white py-2 px-4 rounded'
+      >
+        Register
+      </button>
     </VerticalTimelineElement>
   );
 };

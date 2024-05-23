@@ -9,6 +9,7 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Sponsors from './Sponsors';
 import Footer from './Footer';
+import EventRegistrationForm from './EventRegistrationForm';
 
 export {
   Hero,
@@ -24,5 +25,7 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  EventRegistrationForm
+
 };
