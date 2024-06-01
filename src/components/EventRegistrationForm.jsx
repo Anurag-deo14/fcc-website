@@ -35,8 +35,8 @@ const EventRegistrationForm = () => {
   };
 
   return (
-    <div className="flex justify-center xl:mt-12">
-      <div className="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 bg-black-100 p-8 rounded-2xl">
+    <div className="flex justify-center items-center min-h-screen bg-gray-800">
+      <div className="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 bg-black p-8 rounded-2xl">
         <h2 className="text-white font-bold text-3xl mb-8">Register for {eventName}</h2>
         <form onSubmit={handleSubmit} className="flex flex-col gap-6">
           <label className="flex flex-col">
@@ -85,7 +85,7 @@ const EventRegistrationForm = () => {
               <option value="first">First</option>
               <option value="second">Second</option>
               <option value="third">Third</option>
-              <option value="third">Fourth</option>
+              <option value="fourth">Fourth</option>
             </select>
           </label>
           <label className="flex flex-col">
@@ -116,6 +116,6 @@ const EventRegistrationForm = () => {
       </div>
     </div>
   );
-};
+}; 
 
 export default EventRegistrationForm;
